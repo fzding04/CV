@@ -1,0 +1,86 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{ydnt/global//global/global/global}
+    \entry{lim:etal:kdtei:2016}{misc}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=97c0dc63854499244b10345e7a06c102}{%
+           family={Hamaia},
+           familyi={H\bibinitperiod},
+           given={SW.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=28d3227e1d41773646c117e99d2daad7}{%
+           family={Ding},
+           familyi={D\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=051a2b7861aa289aa0b69cecd1037600}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={CLH.},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a9def59e33332c6dbbd1eed260265893}{%
+           family={Brackenbury},
+           familyi={B\bibinitperiod},
+           given={WJ.},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ecdefac02374a4f42f9a382d7156799a}{%
+           family={Jackson},
+           familyi={J\bibinitperiod},
+           given={AP},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=589d5aba9485a81772bd8a86249d30d9}{%
+           family={Salvage},
+           familyi={S\bibinitperiod},
+           given={SC.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f1ffcbb37b3f8c49617c6204aebd1ac2}
+      \strng{fullhash}{06f7b52700f8a42896dca263fd991ed3}
+      \strng{fullhashraw}{06f7b52700f8a42896dca263fd991ed3}
+      \strng{bibnamehash}{06f7b52700f8a42896dca263fd991ed3}
+      \strng{authorbibnamehash}{06f7b52700f8a42896dca263fd991ed3}
+      \strng{authornamehash}{f1ffcbb37b3f8c49617c6204aebd1ac2}
+      \strng{authorfullhash}{06f7b52700f8a42896dca263fd991ed3}
+      \strng{authorfullhashraw}{06f7b52700f8a42896dca263fd991ed3}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Poster presented (by S. Hamaia) at 34th Ion Channels Meeting}
+      \field{month}{9}
+      \field{note}{Sète, France}
+      \field{title}{Development and validation of human fragment antibodies to the neonatal variant of the cardiac sodium channel (n{N}a\textsubscript{V}1.5).}
+      \field{year}{2025}
+      \true{nocite}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

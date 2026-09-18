@@ -1,0 +1,88 @@
+% !TEX program = xelatex
+% !TEX bibprogram = biber
+
+\documentclass[a4paper,skipsamekey,11pt,english]{curve}
+    % curve is a document typ for CVs, as an alternative to the default article
+    % skipsamekey means that if the same time period (key) is given for two things then they are shown together
+
+\PassOptionsToPackage{style=apa6,sorting=ydnt,uniquename=init,defernumbers=true}{biblatex}
+    % feeds these configuration settings to biblatex
+
+
+
+\usepackage{settings}
+    % pulls the settings for the file from settings.sty
+
+
+
+
+\DefineBibliographyStrings{english}{url={\textsc{url}}}
+    % also for publications - extra formatting
+
+\addbibresource{own-bib.bib}
+    % same with this </3
+    
+
+\mynames{Ding/Fangzheng, Ding/F.}
+    % REFER TO EXAMPLE TEMPLATE CV FOR MAKING OWN NAME BOLD
+
+
+
+\usepackage{fontspec} 
+\setmainfont{Avenir Next}[Numbers = OldStyle]
+\setmonofont{Avenir Next}[Scale = 0.9]
+
+
+% \geometry{left=1cm,right=1cm,top=1.5cm,bottom=1.5cm}
+    % for changing the page margins
+
+
+% \definecolor{SwishLineColour}{HTML}{00FFFF}
+% \definecolor{MarkerColour}{HTML}{0000CC}
+    % for changing the colours
+
+% \prefixmarker{$\diamond$}
+    % this changes the bullet point before items
+
+
+% ==================== START OF CONTENT ==================== 
+
+\leftheader{%
+  {\Huge\bfseries\sffamily Fangzheng Ding}\par
+  \vspace*{2mm}
+  
+  \makefield{\faEnvelope}{\href{mailto:fzding04@gmail.com}{\texttt{fzding04@gmail.com}}} \makefield{\faLinkedin}{\href{https://www.linkedin.com/in/fangzheng-ding-545337172/}{\texttt{https://www.linkedin.com/in/fangzheng-ding-545337172/}}}
+  
+  \makefield{\faPhone}{\href{tel:+447930941388}{\texttt{+44 7930 941388}}}
+}
+
+
+
+\rightheader{}
+
+\title{Curriculum Vitae}
+
+
+\begin{document}
+\makeheaders[c]
+
+\makerubric{education}
+
+\makerubric{awards}
+
+\makerubric{research_exp}
+
+\makerubric{research_skills}
+
+\makerubric{outreach}
+
+\makerubric{societies}
+
+\input{publications}
+
+%\makerubric{referee}
+% \input{referee-full}
+
+\input{interests}
+
+\end{document}
