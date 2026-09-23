@@ -1,10 +1,10 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.6.19)  9 JUL 2026 13:14
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.6.19)  23 SEP 2026 11:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/Users/frank/Library/CloudStorage/OneDrive-UniversityofCambridge/Documents/3. Personal/1. Projects/1. Programming Projects/4. LaTeX/3. My CV/CV"
-(/Users/frank/Library/CloudStorage/OneDrive-UniversityofCambridge/Documents/3. Personal/1. Projects/1. Programming Projects/4. LaTeX/3. My CV/CV.tex
+**"/Users/frank/Documents/2. Github Repositories/0. My CV/CV"
+(/Users/frank/Documents/2. Github Repositories/0. My CV/CV.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
 (/usr/local/texlive/2026/texmf-dist/tex/latex/curve/curve.cls
@@ -1149,11 +1149,11 @@ Package logreq Info: Writing requests to 'CV.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
  39174 strings out of 468168
- 819432 string characters out of 5432815
+ 819174 string characters out of 5432815
  1776437 words of memory out of 5000000
  67297 multiletter control sequences out of 15000+600000
  631068 words of font info for 81 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 100i,10n,120p,1334b,5068s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 100i,10n,120p,1248b,5068s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on CV.pdf (2 pages).
